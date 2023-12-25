@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://tuanvo:tuanvo@cluster0.lfpubkh.mongodb.net/?retryWrites=true&w=majority
+      database: Task
+  security:
+    user:
+      password: Test12345_
+    filter:
+      order: 10
